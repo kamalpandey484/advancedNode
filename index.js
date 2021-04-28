@@ -1,5 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
+require('dotenv').config();
+
 const cookieSession = require('cookie-session');
 const passport = require('passport');
 const bodyParser = require('body-parser');
